@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <body class=" bg-LightGrayishBlue font-Manrope flex justify-center items-center h-screen">
+        <div class="card bg-white drop-shadow-2xl overflow-hidden md:overflow-visible flex flex-col  max-w-[90%] gap-4 lg:max-w-[720px] rounded-lg md:flex-row ">
+          <div class="image w-full ">
+            <img src="images/drawers.jpg" alt="" width="100%" class="rounded-t-lg h-full object-fill md:rounded-s-lg md:rounded-r-none">
+          </div>
+          <div class="content p-5 relative md:flex md:flex-col md:justify-around">
+            <h1 class="mb-3 font-bold text-xl text-VeryDarkGrayishBlue">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+            <p class="font-medium text-sm text-DesaturatedDarkBlue pb-3">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+            <div class="avtarAndShare mt-4 flex items-center justify-between">
+              <div class="avtar flex items-center gap-4">
+                <img src="images/avatar-michelle.jpg" alt="" class="w-[45px] rounded-full">
+                <h2 class="flex flex-col text-sm font-bold text-VeryDarkGrayishBlue">Michelle Appleton <span class="font-medium">28 Jun 2020</span></h2>
+              </div>
+              <div id="shareBtn" class="share me-3 ">
+                <img src="images/icon-share.svg" alt="" class="cursor-pointer p-3 bg-LightGrayishBlue rounded-full transition-all duration-500 hover:bg-GrayishBlue relative z-10">
+              </div>
+            </div>
+          </div>
+          <div id="smScreen" class="h-[86px] bg-VeryDarkGrayishBlue p-5 flex gap-6 items-center absolute  bottom-[-100px] right-0 w-full rounded-b-lg z-0 transition-all duration-700
+          md:bg-VeryDarkGrayishBlue md:w-fit md:h-fit md:bottom-[80px] md:right-[-62px] md:p-2 md:gap-5 md:rounded-lg md:hidden
+          md:after:content-normal md:after:absolute md:after:bottom-[-11px] md:after:left-[50%]  md:after:border-x-[12px] md:after:border-x-transparent md:after:border-t-[12px] md:after:border-t-VeryDarkGrayishBlue md:after:translate-x-[-50%] ">
+            <p class="uppercase tracking-[7px] text-GrayishBlue md:text-sm ">share</p>
+            <img class="w-6 cursor-pointer" src="images/icon-facebook.svg" alt="">
+            <img class="w-6 cursor-pointer" src="images/icon-twitter.svg" alt="">
+            <img class="w-6 cursor-pointer" src="images/icon-pinterest.svg" alt="">
+          </div>
+        </div>
+  
+        <script src="javascript/main.js"></script>
+</body>
+</html>
